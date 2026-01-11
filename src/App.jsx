@@ -5,7 +5,7 @@ import { Toaster } from 'react-hot-toast';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div className="min-h-screen bg-background text-foreground font-sans antialiased overflow-hidden relative">
         {/* Dynamic Background Elements */}
         {/* Routes */}
