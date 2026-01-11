@@ -32,6 +32,7 @@ export default defineConfig({
       }
     })
   ],
+  base: "/daily-routine-app/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
